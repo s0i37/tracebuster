@@ -1,4 +1,10 @@
-## Tracebuster
+# Tracebuster
+
+## Install
+
+`pip3 install tracebuster`
+
+## Idea
 
 When connecting to unfamiliar networks, the attacker faces the problem of not knowing the location of live hosts in it.
 However, often the trace can reveal information about internal addressing, thereby showing inhabited subnets:
@@ -18,6 +24,8 @@ An example usage could be:
 * penetration into the internal network. When the attacker does not have any information about the network;
 * wi-fi networks (for example guest), where hosts of interest (for example domain hosts) can be located in deep network segments;
 * mobile networks, home Internet.
+
+## Implementation
 
 The `tracebuster` utility performs this automation. It is designed to search for inhabited subnets at an arbitrary depth and has a flexible system of settings:
 
