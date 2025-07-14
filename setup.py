@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
   name = 'tracebuster',
-  version = '1.0.2',
+  version = '1.0.3',
   description = 'fast tracing networks tool and finding live subnets',
   author = 's0i37',
   author_email = 's0i37@yahoo.com',
